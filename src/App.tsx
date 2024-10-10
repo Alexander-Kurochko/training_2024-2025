@@ -29,6 +29,7 @@ function App() {
 
     const onClickFilterHandler = (nameButton: FilterPropsType) => {
         setFilter(nameButton)
+        console.log(currentMoney)
     }
 
 
